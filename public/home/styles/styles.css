@@ -1,0 +1,1670 @@
+h1 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-size: 80px;
+}
+h2 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-size: 36px;
+}
+h3 {
+  font-family: 'Bebas Neue';
+  font-weight: bold;
+  font-size: 24px;
+}
+
+a {
+  color: white !important;
+  text-decoration: none;
+}
+
+.gamerequirement table {
+  background: rgba(0, 0, 0, 0.5);
+  border: 0.05rem solid white;
+}
+
+@media (max-width: 400px) {
+  .footer p {
+    font-size: 0.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 320px) {
+  .the-story {
+    margin-top: -4rem;
+  }
+
+  .the-story:hover {
+    margin-top: -3.5rem;
+  }
+
+  .the-story-img {
+    margin-top: -2.5rem;
+  }
+
+  .the-story-img:hover {
+    margin-top: -2rem;
+  }
+
+  .navbar {
+    margin-right: 0rem;
+  }
+  .jumbotron {
+    background-image: url("../assets/main-bg.jpg");
+    background-size: cover;
+    padding: 2rem 1rem;
+  }
+
+  h1.main,
+  p.main {
+    color: white;
+  }
+
+  .gameplay {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-size: cover;
+    padding: 10rem 5rem;
+  }
+
+  .gameplay p,
+  .gameplay h2 {
+    margin-left: 0rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -3.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -3.5rem;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/switch-left.svg") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/switch-right.svg") !important;
+  }
+
+  .carousel {
+    width: 110%;
+    margin-left: -0.5rem;
+  }
+
+  .gamefeature {
+    background-image: url("../assets/features.jpg");
+    background-size: cover;
+    background-position-x: 55%;
+    padding: 10rem 1rem;
+  }
+
+  .dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .dot-not-active {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 0.05rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-description {
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .gamefeature-title {
+    margin-right: 1.5rem;
+    margin-top: -6rem;
+  }
+  .feature-title {
+    color: #ffb548;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .gamerequirement {
+    background-image: url("../assets/requirements.png");
+    background-size: cover;
+    padding: 2rem 1rem;
+    background-position-x: 70%;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1);
+    font-size: 0.8rem;
+  }
+
+  .gamerequirement h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gamerequirement p {
+    margin-top: -1rem;
+  }
+
+  .gamerequirement h5 {
+    color: #ffb548;
+  }
+
+  .gamerequirement table {
+    color: white;
+    border: 0.05rem solid white;
+  }
+
+  .gametopscore {
+    background-image: url("../assets/top-score-bg.png");
+    background-size: cover;
+    padding: 7rem 0rem;
+  }
+
+  .gametopscore p {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore button {
+    margin-top: 0.5rem;
+  }
+
+  .gametopscore .card {
+    background-color: #1b1d1d;
+    border: 0px solid white;
+    width: 18.5rem;
+  }
+
+  .gametopscore .card-1 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-2 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-3 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  .gametopscore-title {
+    margin-top: -6rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+    border: 0px solid;
+    box-shadow: 0.3rem 0.15rem #ffb548;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gametopscore .quote {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+  }
+  .gametopscore .name {
+    margin-top: 0.5rem;
+    color: #ffb548 !important;
+  }
+
+  .gametopscore .role,
+  .gametopscore .date {
+    color: #7e7e7f !important;
+  }
+
+  .footer {
+    background: black; /* fallback for old browsers */
+    background-size: cover;
+    padding: 8rem 1rem;
+  }
+
+  .footer-description {
+    margin-top: -5rem;
+  }
+
+  .footer img {
+    margin-top: -2rem;
+    margin-left: -0.5rem;
+    height: 11rem;
+    width: 6rem;
+  }
+
+  .footer .btn {
+    background-color: #ffb548 !important;
+    color: #1a1917;
+    border: 0px;
+  }
+
+  .footer-menu {
+    font-size: 0.2rem;
+    margin-top: 2rem;
+  }
+
+  .footer-menu img {
+    height: 0.3rem;
+    width: 0.3rem;
+    margin-top: 0rem;
+    margin-left: -0.1rem;
+  }
+
+  .footer-menu-item {
+    margin-right: 0.1rem;
+    margin-left: -0.1rem;
+  }
+
+  .footer hr {
+    border: 0.1rem solid white;
+    margin-top: -1.25rem;
+  }
+
+  .footer .copyright {
+    margin-top: -2.5rem;
+  }
+
+  .footer-menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 400px) {
+  .the-story {
+    margin-top: -4rem;
+  }
+
+  .the-story:hover {
+    margin-top: -3.5rem;
+  }
+
+  .the-story-img {
+    margin-top: -2.5rem;
+  }
+
+  .the-story-img:hover {
+    margin-top: -2rem;
+  }
+
+  .navbar {
+    margin-right: 0rem;
+  }
+  .jumbotron {
+    background-image: url("../assets/main-bg.jpg");
+    background-size: cover;
+    padding: 2rem 1rem;
+  }
+
+  h1.main,
+  p.main {
+    color: white;
+  }
+
+  .gameplay {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-size: cover;
+    padding: 10rem 5rem;
+  }
+
+  .gameplay p,
+  .gameplay h2 {
+    margin-left: 0rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -3.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -3.5rem;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/switch-left.svg") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/switch-right.svg") !important;
+  }
+
+  .carousel {
+    width: 110%;
+    margin-left: -1rem;
+  }
+
+  .gamefeature {
+    background-image: url("../assets/features.jpg");
+    background-size: cover;
+    background-position-x: 55%;
+    padding: 10rem 1rem;
+  }
+
+  .dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .dot-not-active {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 0.05rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-description {
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .gamefeature-title {
+    margin-right: 1.5rem;
+    margin-top: -6rem;
+  }
+  .feature-title {
+    color: #ffb548;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .gamerequirement {
+    background-image: url("../assets/requirements.png");
+    background-size: cover;
+    padding: 2rem 1rem;
+    background-position-x: 70%;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1);
+  }
+
+  .gamerequirement h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gamerequirement p {
+    margin-top: -1rem;
+  }
+
+  .gamerequirement h5 {
+    color: #ffb548;
+  }
+
+  .gamerequirement table {
+    color: white;
+    border: 0.05rem solid white;
+  }
+
+  .gametopscore {
+    background-image: url("../assets/top-score-bg.png");
+    background-size: cover;
+    padding: 7rem 0rem;
+  }
+
+  .gametopscore p {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore button {
+    margin-top: 0.5rem;
+  }
+
+  .gametopscore .card {
+    background-color: #1b1d1d;
+    border: 0px solid white;
+    width: 22rem;
+  }
+
+  .gametopscore .card-1 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-2 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-3 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  .gametopscore-title {
+    margin-top: -6rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+    border: 0px solid;
+    box-shadow: 0.3rem 0.15rem #ffb548;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gametopscore .quote {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+  }
+  .gametopscore .name {
+    margin-top: 0.5rem;
+    color: #ffb548 !important;
+  }
+
+  .gametopscore .role,
+  .gametopscore .date {
+    color: #7e7e7f !important;
+  }
+
+  .footer {
+    background: black; /* fallback for old browsers */
+    background-size: cover;
+    padding: 4rem 1rem;
+  }
+
+  .footer-description {
+    margin-top: -2rem;
+  }
+
+  .footer img {
+    margin-top: -2rem;
+    margin-left: -0.5rem;
+    height: 14rem;
+    width: 8rem;
+  }
+
+  .footer .btn {
+    background-color: #ffb548 !important;
+    color: #1a1917;
+    border: 0px;
+  }
+
+  .footer-menu {
+    font-size: 0.3rem;
+    margin-top: 2rem;
+  }
+
+  .footer-menu img {
+    height: 0.3rem;
+    width: 0.3rem;
+    margin-top: 0rem;
+    margin-left: -0.25rem;
+  }
+
+  .footer-menu-item {
+    margin-right: 0.25rem;
+    margin-left: -0.25rem;
+  }
+
+  .footer hr {
+    border: 0.1rem solid white;
+    margin-top: -1.25rem;
+  }
+
+  .footer .copyright {
+    margin-top: -2.5rem;
+  }
+
+  .footer-menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+@media (min-width: 576px) {
+  .navbar {
+    margin-right: 0rem;
+  }
+  .jumbotron {
+    background-image: url("../assets/main-bg.jpg");
+    background-size: cover;
+    padding: 2rem 1rem;
+  }
+
+  h1.main,
+  p.main {
+    color: white;
+  }
+
+  h1.main {
+    font-size: 5rem;
+  }
+
+  .gameplay {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-size: cover;
+    padding: 10rem 5rem;
+  }
+
+  .gameplay p,
+  .gameplay h2 {
+    margin-left: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -4.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -4.5rem;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/switch-left.svg") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/switch-right.svg") !important;
+  }
+
+  .gamefeature {
+    background-image: url("../assets/features.jpg");
+    background-size: cover;
+    background-position-x: 70%;
+    padding: 10rem 1rem;
+  }
+
+  .dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .dot-not-active {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 0.05rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-description {
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .gamefeature-title {
+    margin-right: 1.5rem;
+    margin-top: -5rem;
+  }
+  .feature-title {
+    color: #ffb548;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .gamerequirement {
+    background-image: url("../assets/requirements.png");
+    background-size: cover;
+    padding: 3rem 1rem;
+    background-position-x: 70%;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1);
+  }
+
+  .gamerequirement h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gamerequirement p {
+    margin-top: -1rem;
+  }
+
+  .gamerequirement h5 {
+    color: #ffb548;
+  }
+
+  .gamerequirement table {
+    color: white;
+    border: 0.05rem solid white;
+  }
+
+  .gametopscore {
+    background-image: url("../assets/top-score-bg.png");
+    background-size: cover;
+    padding: 7rem 0rem;
+  }
+
+  .gametopscore p {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore button {
+    margin-top: 0.5rem;
+  }
+
+  .gametopscore .card {
+    background-color: #1b1d1d;
+    border: 0px solid white;
+    width: 30rem;
+    height: 9.5rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .gametopscore .card-1 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-2 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-3 {
+    margin-left: 0.7rem;
+    margin-top: 1rem;
+  }
+
+  .gametopscore-title {
+    margin-top: 1.5rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+    border: 0px solid;
+    box-shadow: 0.3rem 0.15rem #ffb548;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .gametopscore .quote {
+    font-size: 1rem;
+    margin-top: 0.75rem;
+  }
+  .gametopscore .name {
+    margin-top: 0rem;
+    font-size: 1rem;
+    color: #ffb548 !important;
+  }
+
+  .gametopscore .role,
+  .gametopscore .date {
+    color: #7e7e7f !important;
+  }
+
+  .footer {
+    background: black; /* fallback for old browsers */
+    background-size: cover;
+    padding: 4rem 1rem;
+  }
+
+  .footer-description {
+    margin-top: -2rem;
+  }
+
+  .footer img {
+    margin-top: -2rem;
+    margin-left: -1rem;
+    height: 18rem;
+    width: 12rem;
+  }
+
+  .footer .btn {
+    background-color: #ffb548 !important;
+    color: #1a1917;
+    border: 0px;
+  }
+
+  .footer-menu {
+    font-size: 0.55rem;
+    margin-top: 3rem;
+  }
+
+  .footer-menu img {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-top: 0rem;
+    margin-left: -0.25rem;
+  }
+
+  .footer-menu-item {
+    margin-right: 1rem;
+    margin-left: -1rem;
+  }
+
+  .footer hr {
+    margin-top: -2rem;
+    margin-bottom: -2rem;
+    border: 0.1rem solid white;
+  }
+
+  .footer .copyright {
+    margin-top: -4rem;
+  }
+
+  .footer-menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .navbar {
+    margin-right: -1rem;
+  }
+  .jumbotron {
+    background-image: url("../assets/main-bg.jpg");
+    background-size: cover;
+    padding: 2rem 1rem;
+  }
+
+  h1.main,
+  p.main {
+    color: white;
+  }
+
+  .gameplay {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-size: cover;
+    padding: 10rem 5rem;
+  }
+
+  .gameplay p,
+  .gameplay h2 {
+    margin-left: -5rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -4.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -4.5rem;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/switch-left.svg") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/switch-right.svg") !important;
+  }
+
+  .gamefeature {
+    background-image: url("../assets/features.jpg");
+    background-size: cover;
+    background-position-x: 70%;
+    padding: 10rem 1rem;
+  }
+
+  .dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .dot-not-active {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 0.05rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-description {
+    margin-right: 2rem;
+    margin-top: 1rem;
+  }
+
+  .gamefeature-title {
+    margin-right: 1.5rem;
+  }
+  .feature-title {
+    color: #ffb548;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .gamerequirement {
+    background-image: url("../assets/requirements.png");
+    background-size: cover;
+    padding: 4rem 1rem;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1);
+  }
+
+  .gamerequirement h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gamerequirement p {
+    margin-top: -1rem;
+  }
+
+  .gamerequirement h5 {
+    color: #ffb548;
+  }
+
+  .gamerequirement table {
+    color: white;
+    border: 0.05rem solid white;
+  }
+
+  .gametopscore {
+    background-image: url("../assets/top-score-bg.png");
+    background-size: cover;
+    padding: 7rem 0rem;
+  }
+
+  .gametopscore p {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore button {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore .card {
+    background-color: #1b1d1d;
+    border: 0px solid white;
+    width: 22rem;
+  }
+
+  .gametopscore .card-1 {
+    margin-left: 5rem;
+    margin-top: -6rem;
+  }
+  .gametopscore .card-2 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-3 {
+    margin-left: 4rem;
+    margin-top: 1rem;
+  }
+
+  .gametopscore-title {
+    margin-top: 5rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+    border: 0px solid;
+    box-shadow: 0.3rem 0.15rem #ffb548;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gametopscore .quote {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+  }
+  .gametopscore .name {
+    margin-top: 0.5rem;
+    color: #ffb548 !important;
+  }
+
+  .gametopscore .role,
+  .gametopscore .date {
+    color: #7e7e7f !important;
+  }
+
+  .footer {
+    background: black; /* fallback for old browsers */
+    background-size: cover;
+    padding: 6rem 1rem;
+  }
+
+  .footer-description {
+    margin-top: -2rem;
+  }
+
+  .footer img {
+    margin-top: -3rem;
+    margin-left: -1rem;
+    height: 23rem;
+    width: 15rem;
+  }
+
+  .footer .btn {
+    background-color: #ffb548 !important;
+    color: #1a1917;
+    border: 0px;
+  }
+
+  .footer-menu {
+    font-size: 0.75rem;
+    margin-top: 3rem;
+  }
+
+  .footer-menu img {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-top: 0rem;
+    margin-left: -0.25rem;
+  }
+
+  .footer-menu-item {
+    margin-right: 1rem;
+    margin-left: -1rem;
+  }
+
+  .footer hr {
+    border: 0.1rem solid white;
+  }
+
+  .footer .copyright {
+    margin-top: -3rem;
+  }
+
+  .footer-menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  .navbar {
+    margin-right: 0rem;
+  }
+
+  .core-menu {
+    margin-left: 3rem !important;
+  }
+
+  .jumbotron {
+    background-image: url("../assets/main-bg.jpg");
+    background-size: cover;
+    padding: 2rem 1rem;
+  }
+
+  h1.main,
+  p.main {
+    color: white;
+  }
+
+  .gameplay {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-size: cover;
+    padding: 10rem 1rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -4.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -4.5rem;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/switch-left.svg") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/switch-right.svg") !important;
+  }
+
+  .gamefeature {
+    background-image: url("../assets/features.jpg");
+    background-size: cover;
+    padding: 10rem 1rem;
+  }
+
+  .gamefeature-title {
+    margin-right: 0rem;
+  }
+
+  .dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .dot-not-active {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 0.05rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-description {
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .feature-title {
+    color: #ffb548;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .gamerequirement {
+    background-image: url("../assets/requirements.png");
+    background-size: cover;
+    padding: 6rem 1rem;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1);
+  }
+
+  .gamerequirement h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gamerequirement p {
+    margin-top: -1rem;
+  }
+
+  .gamerequirement h5 {
+    color: #ffb548;
+  }
+
+  .gamerequirement table {
+    color: white;
+    border: 0.05rem solid white;
+  }
+
+  .gametopscore {
+    background-image: url("../assets/top-score-bg.png");
+    background-size: cover;
+    padding: 7rem 0rem;
+  }
+
+  .gametopscore p {
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore button {
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore .card {
+    background-color: #1b1d1d;
+    border: 0px solid white;
+    width: 22rem;
+  }
+
+  .gametopscore .card-1 {
+    margin-left: 15rem;
+    margin-top: -6rem;
+  }
+  .gametopscore .card-2 {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-3 {
+    margin-left: 12rem;
+    margin-top: 1rem;
+  }
+
+  .gametopscore-title {
+    margin-left: 5rem;
+    margin-top: 5rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+    border: 0px solid;
+    box-shadow: 0.3rem 0.15rem #ffb548;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gametopscore .quote {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+  }
+  .gametopscore .name {
+    margin-top: 0.5rem;
+    color: #ffb548 !important;
+  }
+
+  .gametopscore .role,
+  .gametopscore .date {
+    color: #7e7e7f !important;
+  }
+
+  .footer {
+    background: black; /* fallback for old browsers */
+    background-size: cover;
+    padding: 5rem 1rem;
+  }
+
+  .footer img {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    height: 23rem;
+    width: 15rem;
+  }
+
+  .footer .btn {
+    background-color: #ffb548 !important;
+    color: #1a1917;
+    border: 0px;
+  }
+
+  .footer-menu {
+    font-size: 0.75rem;
+    margin-top: 3rem;
+  }
+
+  .footer-menu img {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-top: 0rem;
+    margin-left: -0.25rem;
+  }
+
+  .footer-menu-item {
+    margin-right: 2rem;
+  }
+
+  .footer hr {
+    border: 0.1rem solid white;
+  }
+
+  .footer .copyright {
+    margin-top: -3rem;
+  }
+
+  .footer-menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .navbar {
+    margin-right: 0rem;
+  }
+  .jumbotron {
+    background-image: url('../assets/main-bg.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    padding: 2rem 1rem;
+  }
+
+  h1.main,
+  p.main {
+    color: white;
+  }
+
+  .gameplay {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-size: cover;
+    padding: 10rem 1rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -4.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -4.5rem;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/switch-left.svg") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/switch-right.svg") !important;
+  }
+
+  .gamefeature {
+    background-image: url("../assets/features.jpg");
+    background-size: cover;
+    padding: 10rem 1rem;
+  }
+
+  .dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .dot-not-active {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 0.05rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-description {
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .feature-title {
+    color: #ffb548;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .gamerequirement {
+    background-image: url("../assets/requirements.png");
+    background-size: cover;
+    padding: 6rem 1rem;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1);
+  }
+
+  .gamerequirement h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gamerequirement p {
+    margin-top: -1rem;
+  }
+
+  .gamerequirement h5 {
+    color: #ffb548;
+  }
+
+  .gamerequirement table {
+    color: white;
+    border: 0.05rem solid white;
+  }
+
+  .gametopscore {
+    background-image: url("../assets/top-score-bg.png");
+    background-size: cover;
+    padding: 7rem 0rem;
+  }
+
+  .gametopscore p {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore button {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore .card {
+    background-color: #1b1d1d;
+    border: 0px solid white;
+    width: 22rem;
+    height: 11rem;
+  }
+
+  .gametopscore .card-1 {
+    margin-left: 20rem;
+    margin-top: -6rem;
+  }
+  .gametopscore .card-2 {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-3 {
+    margin-left: 17rem;
+    margin-top: 1rem;
+  }
+
+  .gametopscore-title {
+    margin-top: 5rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+    border: 0px solid;
+    box-shadow: 0.3rem 0.15rem #ffb548;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gametopscore .quote {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+  }
+  .gametopscore .name {
+    margin-top: 0.5rem;
+    color: #ffb548 !important;
+  }
+
+  .gametopscore .role,
+  .gametopscore .date {
+    color: #7e7e7f !important;
+  }
+
+  .gametopscore .date {
+    margin-top: 0.5rem;
+  }
+
+  .footer {
+    background: black; /* fallback for old browsers */
+    background-size: cover;
+    padding: 5rem 1rem;
+  }
+
+  .footer img {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    height: 23rem;
+    width: 15rem;
+  }
+
+  .footer .btn {
+    background-color: #ffb548 !important;
+    color: #1a1917;
+    border: 0px;
+  }
+
+  .footer-menu {
+    font-size: 0.75rem;
+    margin-top: 3rem;
+  }
+
+  .footer-menu img {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-top: 0rem;
+    margin-left: -0.25rem;
+  }
+
+  .footer-menu-item {
+    margin-right: 2rem;
+  }
+
+  .footer hr {
+    border: 0.1rem solid white;
+  }
+
+  .footer .copyright {
+    margin-top: -3rem;
+  }
+
+  .footer-menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  .navbar {
+    margin-right: 0rem;
+  }
+  .jumbotron {
+    background-image: url('../assets/main-bg.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;  
+    padding: 2rem 1rem;
+  }
+
+  h1.main,
+  p.main {
+    color: white;
+  }
+
+  .gameplay {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-size: cover;
+    padding: 6rem 1rem;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .carousel-control-prev {
+    margin-left: -4.5rem;
+  }
+
+  .carousel-control-next {
+    margin-right: -4.5rem;
+  }
+
+  .carousel-control-prev-icon {
+    background-image: url("../assets/switch-left.svg") !important;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url("../assets/switch-right.svg") !important;
+  }
+
+  .gamefeature {
+    background-image: url("../assets/features.jpg");
+    background-size: cover;
+    padding: 10rem 1rem;
+  }
+
+  .dot {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .dot-not-active {
+    height: 1.5rem;
+    width: 1.5rem;
+    background-color: transparent;
+    border: 0.05rem solid white;
+    border-radius: 50%;
+    margin-right: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-description {
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .feature-title {
+    color: #ffb548;
+    font-size: 1.5rem;
+    margin-top: 0.25rem;
+  }
+
+  .gamerequirement {
+    background-image: url("../assets/requirements.png");
+    background-size: cover;
+    padding: 4rem 1rem;
+    box-shadow: inset 0px 0px 400px 110px rgba(0, 0, 0, 1);
+  }
+
+  .gamerequirement h3 {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .gamerequirement p {
+    margin-top: -1rem;
+  }
+
+  .gamerequirement h5 {
+    color: #ffb548;
+  }
+
+  .gamerequirement table {
+    color: white;
+    border: 0.05rem solid white;
+  }
+
+  .gametopscore {
+    background-image: url("../assets/top-score-bg.png");
+    background-size: cover;
+    padding: 7rem 0rem;
+  }
+
+  .gametopscore p {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore button {
+    margin-top: 1.5rem;
+  }
+
+  .gametopscore .card {
+    background-color: #1b1d1d;
+    border: 0px solid white;
+    width: 22rem;
+  }
+
+  .gametopscore .card-1 {
+    margin-left: 20rem;
+    margin-top: -6rem;
+  }
+  .gametopscore .card-2 {
+    margin-left: 10rem;
+    margin-top: 1rem;
+  }
+  .gametopscore .card-3 {
+    margin-left: 17rem;
+    margin-top: 1rem;
+  }
+
+  .gametopscore-title {
+    margin-top: 5rem;
+  }
+
+  .photo {
+    margin-right: 1rem;
+    border: 0px solid;
+    box-shadow: 0.3rem 0.15rem #ffb548;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .gametopscore .quote {
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
+  }
+  .gametopscore .name {
+    margin-top: 0.5rem;
+    color: #ffb548 !important;
+  }
+
+  .gametopscore .role,
+  .gametopscore .date {
+    color: #7e7e7f !important;
+  }
+
+  .footer {
+    background: black; /* fallback for old browsers */
+    background-size: cover;
+    padding: 7rem 1rem;
+  }
+
+  .footer img {
+    margin-top: -3rem;
+    margin-left: 3rem;
+    height: 23rem;
+    width: 15rem;
+  }
+
+  .footer .btn {
+    background-color: #ffb548 !important;
+    color: #1a1917;
+    border: 0px;
+  }
+
+  .footer-menu {
+    font-size: 0.75rem;
+    margin-top: 3rem;
+  }
+
+  .footer-menu img {
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-top: 0rem;
+    margin-left: -0.25rem;
+  }
+
+  .footer-menu-item {
+    margin-right: 2rem;
+  }
+
+  .footer hr {
+    border: 0.1rem solid white;
+  }
+
+  .footer .copyright {
+    margin-top: -4rem;
+  }
+
+  .footer-menu-item a {
+    color: white !important;
+    text-decoration: none;
+  }
+}

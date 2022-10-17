@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Arul",
+        "username": "arul",
+        "password": "1234",
+        "fullname": "Arul Ferian"
+    },
+    {
+        "id": 2,
+        "name": "Feri",
+        "username": "feri",
+        "password": "1234",
+        "fullname": "Ferian"
+    },
+    {
+        "id": 3,
+        "name": "Rian",
+        "username": "rian",
+        "password": "1234",
+        "fullname": "Rian P"
+    },
+    {
+        "id": 4,
+        "name": "Rama",
+        "username": "rama",
+        "password": "1234",
+        "fullname": "Rama D"
+    },
+    {
+        "id": 5,
+        "name": "Doni",
+        "username": "doni",
+        "password": "1234",
+        "fullname": "Doni Ferian"
+    }
+]
